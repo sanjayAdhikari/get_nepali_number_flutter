@@ -1,3 +1,3 @@
-## [0.0.1] - December-18, 2020
+## 1.0.0+1
 
-* A package written in dart to convert English number to Nepali number.
+* Initial Open Source release.

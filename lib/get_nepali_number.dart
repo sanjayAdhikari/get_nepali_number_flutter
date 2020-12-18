@@ -13,6 +13,7 @@ const Map<String, String> _numeric = {
   '9': '९'
 };
 
-String getNepaliNumberFromText(String value) => value.split('').map((e)=> _numeric[e]?? e ).toList().join("");
+String getNepaliNumberFromText(String value) =>
+    value.split('').map((e) => _numeric[e] ?? e).toList().join("");
 
 String getNepaliNumber(num value) => getNepaliNumberFromText(value.toString());

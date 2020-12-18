@@ -1,8 +1,9 @@
 name: get_nepali_number
 description: Convert any english numeral to Nepali number [eg abc200.05 => abc२००.०५ ]
 version: 1.0.0+1
-author:
-homepage:
+author: Sanjaya Adhikari
+homepage: https://github.com/sanjayAdhikari/get_nepali_number_flutter
+repository: https://github.com/sanjayAdhikari/get_nepali_number_flutter
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

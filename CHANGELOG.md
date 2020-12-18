@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - December-18, 2020
 
-* TODO: Describe initial release.
+* A package written in dart to convert English number to Nepali number.

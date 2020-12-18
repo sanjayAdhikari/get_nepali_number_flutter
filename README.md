@@ -1,14 +1,42 @@
 # get_nepali_number
 
-Convert any english numeral to Nepali number [eg:  abc200.05 => abc२००.०५ ]
+A lightweight package to convert any English numeral to Nepali number [eg:  'Rs. 200.05' => 'Rs. २००.०५' ].
 
-## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## How to install
+```bash
+dependencies:
+  get_nepali_number: 1.0.0+1
+```
+
+## Usage
+
+
+```bash
+
+import 'package:get_nepali_number/get_nepali_number.dart';
+
+getNepaliNumber(100);
+//=> '१००'
+
+getNepaliNumber(2000);
+//=> '२०००'
+
+getNepaliNumber(200.05);
+//=> '२००.०५'
+
+getNepaliNumber(2000.50);
+//=> '२०००.५०'
+
+getNepaliNumberFromText('2,00,000.50');
+//=> '२,००,०००.५०'
+
+getNepaliNumberFromText('Rs. 1,000,365.50');
+//=> 'Rs. १,०००,३६५.५०'
+```
+
+``` This package is designed to be only used to work with Nepali numbers.```
+
+If you have any suggestions, improvements, I am open to PR.
+If you find any bug/issue, please don't hesitate to open an issue.
